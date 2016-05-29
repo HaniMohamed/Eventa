@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="10.67dp"
+        android:layout_marginTop="175.33dp"
+        android:src="@drawable/bk"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="183dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/date_bk"
+        android:src="@drawable/time_place_bk"/>
+
+        <ImageView
+            android:layout_width="31.67dp"
+            android:layout_height="31.67dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="20.33dp"
+            android:src="@drawable/date"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/date"
+            android:layout_marginTop="12dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:text="Date of the event"/>
+
+        <ImageView
+            android:layout_width="31.67dp"
+            android:layout_height="31.67dp"
+            android:layout_marginTop="43.67dp"
+            android:layout_marginLeft="20.33dp"
+            android:src="@drawable/place"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/place"
+            android:layout_marginTop="51dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:text="Place of the event"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/description"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/date_bk"
+            android:layout_marginTop="15dp"
+            android:text="@string/description"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="182dp"
+        android:id="@+id/event_img"
+        android:background="@drawable/img_bk"
+        />
+
+    <ImageView
+        android:layout_width="42.67dp"
+        android:layout_height="42.67dp"
+        android:src="@drawable/share_icon"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="11dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/share"/>
+
+    <ImageView
+        android:layout_width="42.67dp"
+        android:layout_height="42.67dp"
+        android:src="@drawable/enrol_icon"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/enrol"/>
+
+</RelativeLayout>

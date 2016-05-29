@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="169dp"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/image"/>
+
+    <ImageView
+        android:layout_width="345.33dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/black"/>
+
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="120.33dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/host_background"/>
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="120.33dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/hostimg"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="115dp"
+        android:id="@+id/headline"
+        android:text="The Event title"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="143dp"
+        android:id="@+id/host"
+        android:text="host by"
+        android:layout_marginLeft="75dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"/>
+
+    <ImageView
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="165dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bottom"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/date"
+        android:textColor="@color/white"
+        android:text="Date"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="182dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shDesc"
+        android:text="short description about the event"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="173dp"/>
+
+
+
+
+</RelativeLayout>

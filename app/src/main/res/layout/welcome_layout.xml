@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/welcome_bk">
+
+    <ImageView
+        android:layout_width="278dp"
+        android:layout_height="76.67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:id="@+id/welcome"
+        android:src="@drawable/welcom"/>
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="22.67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="75dp"
+        android:id="@+id/next"
+        android:src="@drawable/next_arrow"/>
+
+<ImageView
+    android:layout_width="93dp"
+    android:layout_height="17.67dp"
+    android:src="@drawable/get_start"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/start"
+    android:layout_marginBottom="15dp"/>
+    
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="15.67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/circles"
+        android:src="@drawable/st"/>
+
+
+<ImageView
+    android:layout_width="333dp"
+    android:layout_height="375dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="47.33dp"
+    android:id="@+id/nd_img"
+    android:src="@drawable/second_img"/>
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="421.67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47.33dp"
+        android:id="@+id/rd_img"
+        android:src="@drawable/third_img"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner"
+        android:entries="@array/university_arrays"
+        android:prompt="@string/university_prompt"
+        android:layout_below="@+id/nd_img"/>
+
+
+
+</RelativeLayout>

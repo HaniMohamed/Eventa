@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Eventa</string>
+    <integer name="send">0x00000004</integer>
+
+
+    <string name="university_prompt">Choose your university</string>
+    <string-array name="university_arrays">
+        <item>Choose your University</item>
+        <item>Zagazig University</item>
+
+    </string-array>
+
+
+    <string name="description">the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event,
+    the description of the event, the description of the event, the description of the event, the description of the event,
+    the description of the event, the description of the event, the description of the event, the description of the event, the description of the event,
+    the description of the event,
+    the description of the event,
+    the description of the event, the description of the event, the description of the event, the description of the event,
+    the description of the event, the description of the event, the description of the event, the description of the event, the description of the event,
+        the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event,
+        the description of the event, the description of the event, the description of the event, the description of the event, the description of the event,
+        the description of the event, the description of the event, the description of the event, the description of the event, the description of the event, the description of the event,
+        the description of the event, the description of the event, the description of the event,
+        the description of the event, the description of the event, the description of the event,
+
+
+
+        the description of the event, the description of the event, the description of the event, the description of the event, the description of the event,
+
+        the description of the event, the description of the event, the description of the event,
+        the description of the event, the description of the event, the description of the event, the description of the event,
+
+        the description of the event, the description of the event,
+
+
+    </string>
+
+
+</resources>
